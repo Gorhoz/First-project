@@ -3,13 +3,15 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Books from './components/Books'
+import Input from './components/Input'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div>
-        <Books />
+        {/* <Books /> */}
+        <Input />
       
     </div>
   )
