@@ -3,7 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Books from './components/Books'
-import Input from './components/Input'
+import Exercise2 from './components/Exercise2'
+import Exercise3 from './components/Exercise3'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,8 @@ function App() {
   return (
     <div>
         {/* <Books /> */}
-        <Input />
+        {/* <Exercise2 /> */}
+        <Exercise3 />
       
     </div>
   )

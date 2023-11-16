@@ -1,6 +1,6 @@
 
 
-function Input  () {
+function Exercise2  () {
 const handleChange = (value) => {
     value.length>10?alert("Maximum number of symbols is 10"):""
 }
@@ -16,4 +16,4 @@ const handleChange = (value) => {
     )
 }
 
-export default Input;
+export default Exercise2;
