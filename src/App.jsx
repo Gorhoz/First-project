@@ -5,6 +5,7 @@ import './App.css'
 import Books from './components/Books'
 import Exercise2 from './components/Exercise2'
 import Exercise3 from './components/Exercise3'
+import ProductsList from './components/Exercise4'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +14,8 @@ function App() {
     <div>
         {/* <Books /> */}
         {/* <Exercise2 /> */}
-        <Exercise3 />
+        {/* <Exercise3 /> */}
+        <ProductsList />
       
     </div>
   )
